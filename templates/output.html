@@ -1,0 +1,11 @@
+
+{% for item in flags %}
+
+{% if item == 'end' %}
+  <br>
+  {% else %}
+  <img src="{{ flags[loop.index0] }}" width="1.5%" height="auto">
+  {% endif %}
+
+{% endfor %}
+

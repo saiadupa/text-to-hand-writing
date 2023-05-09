@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Form</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: #d2a801;
+      font-family: Arial, sans-serif;
+    }
+    
+    .textbox {
+      width: 1000px;
+      height: 300px;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333333;
+      color: #d2a801;
+      resize: none;
+    }
+    
+    .button {
+      background-color: #d2a801;
+      color: #000000;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: transform 0.3s;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    .button:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <form class="" action="/output" method="post">
+    <!--<label for="enter" class="textnormal">Enter Text Here</label>-->
+    <textarea name="enter" cols="50" rows="40" class="textbox"></textarea>
+    <br><br />
+    <button class="button" role="button">
+      Submit
+    </button>
+  </form>
+</body>
+</html>
