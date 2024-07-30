@@ -2,7 +2,7 @@
 
 # Text to Handwriting Flask Application
 
-This is a simple Flask web application that converts text input into a series of corresponding handwritten images. Each character in the input text is mapped to a specific handwritten image file.
+This is a web application that converts text input into a series of corresponding handwritten images. Each character in the input text is mapped to a specific handwritten image file, making it look like handwritten text. This can be customized with your own handwriting.
 
 ## Features
 
