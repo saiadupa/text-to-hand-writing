@@ -1,15 +1,15 @@
 ---
 
-# Text to Image Flask Application
+# Text to Handwriting Flask Application
 
-This is a simple Flask web application that converts text input into a series of corresponding images. Each character in the input text is mapped to a specific image file.
+This is a simple Flask web application that converts text input into a series of corresponding handwritten images. Each character in the input text is mapped to a specific handwritten image file.
 
 ## Features
 
 - Accepts user input via a web form.
-- Converts each character in the input text to a corresponding image.
+- Converts each character in the input text to a corresponding handwritten image.
 - Supports letters, punctuation, and some special characters.
-- Displays the sequence of images representing the input text.
+- Displays the sequence of images representing the input text in handwritten form.
 
 ## Getting Started
 
@@ -25,8 +25,8 @@ Make sure you have the following installed on your system:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
+    git clone https://github.com/saiadupa/text-to-hand-writing.git
+    cd text-to-hand-writing
     ```
 
 2. **Create and activate a virtual environment:**
@@ -80,21 +80,21 @@ Make sure you have the following installed on your system:
 └── README.md
 ```
 
-- **static/**: Contains the image files for each character.
+- **static/**: Contains the handwritten image files for each character.
 - **templates/**: Contains the HTML templates for rendering the web pages.
   - `index.html`: The main page with the input form.
-  - `output.html`: The page that displays the sequence of images.
+  - `output.html`: The page that displays the sequence of handwritten images.
 - **app.py**: The Flask application.
 
 ## Usage
 
 1. Navigate to the main page.
 2. Enter your text in the input form.
-3. Submit the form to see the corresponding images.
+3. Submit the form to see the corresponding handwritten images.
 
 ## Examples
 
-For example, if you enter the text `Hello World!`, the application will display the following images:
+For example, if you enter the text `Hello World!`, the application will display the following handwritten images:
 
 - `Hupper.png`
 - `e.png`
